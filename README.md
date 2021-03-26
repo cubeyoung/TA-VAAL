@@ -1,2 +1,43 @@
-# TA-VAAL
-Source code for Task-Aware Variational Adversarial Active Learning
+# TA-VAAL in PyTorch
+
+This repository is the official implementation of TA-VAAL. 
+
+<img src="./plots/Network.png" width="50%" height="50%" alt="Network"></img>
+
+## Prerequisites:   
+- Linux or macOS
+- Python 3.5/3.6
+- CPU compatible but NVIDIA GPU + CUDA CuDNN is highly recommended.
+- pytorch 0.4.1
+- cuda 8.0
+- Anaconda3
+
+## Requirements
+
+To install virtual enviornment for requirements:
+
+```setup
+conda env create -f TAVAAL.yaml
+```
+
+> 📋if you already conda, you can activate virtual experiment settings
+
+To activate virtual enviornment:
+
+```activate
+conda activate TAVAAL
+```
+
+## Running code
+
+To train the model(s) and evaluate in the paper, run this command:
+
+```train
+python main.py -m TA-VAAL -d cifar10 -c 5 # Other available datasets cifar100, fashionmnist, svhn
+```
+
+if you want to experiment about cifar_imbal. you can run this command:
+
+```
+python main.py  -d cifar10 cifar10im
+```
