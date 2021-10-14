@@ -1,7 +1,11 @@
 # __Task-Aware Variational Adversarial Active Learning__ - _Official Pytorch implementation of the CVPR 2020 paper_
 
 __*Kwanyoung Kim, Dongwon Park, Kwang In Kim, Se Young Chun*__
-<img src="./plots/Network.png" width="50%" height="50%" alt="Network"></img>
+
+Official Pytorch implementation for [the paper](https://arxiv.org/pdf/2002.04709.pdf) presented on CVPR 2020 titled "Task-Aware Variational Adversarial Active Learning".
+
+
+<img src="./Network.png" width="70%" height="70%" alt="Network"></img>
 
 # Abstract
 _We propose task-aware variational adversarial AL (TA-VAAL) that modifies task-agnostic VAAL, that considered data distribution of both label and
