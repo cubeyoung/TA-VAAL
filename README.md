@@ -1,8 +1,8 @@
-# __Task-Aware Variational Adversarial Active Learning__ - _Official Pytorch implementation of the CVPR 2020 paper_
+# __Task-Aware Variational Adversarial Active Learning__ - _Official Pytorch implementation of the CVPR 2021 paper_
 
 __*Kwanyoung Kim, Dongwon Park, Kwang In Kim, Se Young Chun*__
 
-Official Pytorch implementation for [the paper](https://arxiv.org/pdf/2002.04709.pdf) presented on CVPR 2020 titled "_Task-Aware Variational Adversarial Active Learning_".
+Official Pytorch implementation for [the paper](https://arxiv.org/pdf/2002.04709.pdf) presented on CVPR 2021 titled "_Task-Aware Variational Adversarial Active Learning_".
 
 
 <img src="./Network.png" width="70%" height="70%" alt="Network"></img>
