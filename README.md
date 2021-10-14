@@ -1,9 +1,13 @@
-# TA-VAAL in PyTorch
+# __Task-Aware Variational Adversarial Active Learning__ - _Official Pytorch implementation of the CVPR 2020 paper_
 
-This repository is the official implementation of TA-VAAL. 
-
+__*Kwanyoung Kim, Dongwon Park, Kwang In Kim, Se Young Chun*__
 <img src="./plots/Network.png" width="50%" height="50%" alt="Network"></img>
 
+# Abstract
+_We propose task-aware variational adversarial AL (TA-VAAL) that modifies task-agnostic VAAL, that considered data distribution of both label and
+unlabeled pools, by relaxing task learning loss prediction to ranking loss prediction and by using ranking conditional
+generative adversarial network to embed normalized ranking loss information on VAAL. Our proposed TA-VAAL outperforms state-of-the-arts on various benchmark datasets for
+classifications with balanced / imbalanced labels as well as semantic segmentation and its task-aware and task-agnostic AL properties were confirmed with our in-depth analyses_
 ## Prerequisites:   
 - Linux or macOS
 - Python 3.5/3.6
